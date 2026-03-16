@@ -148,7 +148,7 @@ function renderWeather(data, units) {
   showElement(cardEl);
 }
 
-// Event listeners
+
 searchForm.addEventListener("submit", (event) => {
   event.preventDefault();
   const city = cityInput.value;
@@ -159,6 +159,7 @@ unitToggleBtn.addEventListener("click", async () => {
   currentUnits = currentUnits === "metric" ? "imperial" : "metric";
 
   if (!lastQuery) {
+    
     
     tempEl.textContent =
       currentUnits === "imperial" ? "--°F" : "--°C";

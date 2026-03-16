@@ -5,6 +5,10 @@ A simple web application that displays real-time weather data for any city using
 The user can search for a city and view current weather conditions including temperature, weather description, humidity, and wind speed.
 This project was built as a learning exercise using **AI-assisted development**.
 
+## Preview
+
+![Weather App Screenshot](images/app-screenshot.png)
+
 ## Live Demo
 
 [View the live application](https://dvidosic.github.io/weather-app/)
