@@ -3,6 +3,7 @@
 A simple web application that displays real-time weather data for any city using the OpenWeatherMap API.
 
 The user can search for a city and view current weather conditions including temperature, weather description, humidity, and wind speed.
+This project was built as a learning exercise using **AI-assisted development**.
 
 ## Live Demo
 
@@ -27,7 +28,5 @@ The user can search for a city and view current weather conditions including tem
 - OpenWeatherMap API
 
 ## Author
-
-This project was built as a learning exercise using **AI-assisted development**.
 
 The application was generated using **Cursor**. The goal of this project was to explore modern AI-assisted workflows for building frontend applications and integrating external APIs.
