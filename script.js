@@ -1,4 +1,4 @@
-const API_KEY = "037952cf04ccc7cebabd2c4bc9d2a474"; // Replace with your OpenWeatherMap API key
+const API_KEY = "037952cf04ccc7cebabd2c4bc9d2a474";
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 
 const searchForm = document.getElementById("search-form");
@@ -159,7 +159,7 @@ unitToggleBtn.addEventListener("click", async () => {
   currentUnits = currentUnits === "metric" ? "imperial" : "metric";
 
   if (!lastQuery) {
-    // Update placeholder label even if no data fetched yet
+    
     tempEl.textContent =
       currentUnits === "imperial" ? "--°F" : "--°C";
     return;
